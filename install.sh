@@ -9,11 +9,12 @@ grub-install /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
 useradd -m shiwa
 passwd shiwa
-git clone https://aur.archlinux.org/emptty.git
-chown shiwa:shiwa ./emptty
+git clone https://aur.archlinux.org/yay.git
+chown shiwa:shiwa ./yay
 echo "shiwa ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers 
-cd /emptty
+cd /yay
 sudo -u shiwa makepkg -si 
+sudo -u shiwa yay -S --needed --noconfirm emptty pfetch polybar rofi dunst alacritty pcmanfm-qt flameshot lxsession ttf-iosevaka-nerd nitrogen
 systemctl enable NetworkManager emptty 
 passwd
 cd /home/shiwa
