@@ -1,0 +1,4 @@
+mv .git git
+cp -rf .* ${HOME}
+echo "Copied .config, .local to ${HOME}"
+mv git .git

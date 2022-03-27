@@ -1,0 +1,14 @@
+pfetch
+polybar
+rofi
+dunst
+alacritty
+pcmanfm-qt
+flameshot
+lxsession
+nitrogen
+neofetch
+emote
+ttf-iosevka-nerd
+nerd-fonts-jetbrains-mono
+

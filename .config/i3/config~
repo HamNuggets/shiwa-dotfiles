@@ -51,7 +51,7 @@ bindsym $mod+v split h
 bindsym $mod+f fullscreen toggle
 
 # emoji picker
-bindsym $mod+period exec "emote"
+bindsym $mod+b exec "sh ~/Documents/emoji.sh &"
 
 # play clipboard url with mpv
 bindsym $mod+Shift+d exec "mpv $(xclip -o)"
@@ -193,7 +193,6 @@ exec dunst &
 exec nitrogen --restore
 exec lxsession &
 exec pcmanfm-qt -d
-exec emote &
 #exec pcmanfm -d
 #exec "nemo -n"
 #exec_always picom --experimental-backends
