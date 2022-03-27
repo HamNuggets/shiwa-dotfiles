@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/shiwa/Downloads/JetBrains%20Mono%20Regular%20Nerd%20Font%20Complete%20Mono.ttf" added="2022-03-22T05:58:08.448207Z" modified="2022-03-22T06:03:29.985329Z" visited="2022-03-22T05:58:08.448209Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="font/ttf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-03-22T06:03:29.985326Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/shiwa/Pictures/yugi.jpg" added="2022-03-22T06:07:10.490492Z" modified="2022-03-22T06:07:10.848228Z" visited="2022-03-22T06:07:10.490494Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2022-03-22T06:07:10.848225Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
